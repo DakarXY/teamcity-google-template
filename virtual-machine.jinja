@@ -411,7 +411,7 @@ resources:
         initializeParams:
           diskName: {{ BASE_NAME }}-disk
           sourceImage: {{ GlobalComputeUrl('teamcitytest-166414', 'images', 'flatcar-stable') }}
-          diskSizeGb: 14
+          diskSizeGb: 9
       - deviceName: {{ BASE_NAME }}-data
         type: PERSISTENT
         autoDelete: true
