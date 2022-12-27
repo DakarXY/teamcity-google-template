@@ -33,14 +33,14 @@ properties:
   zone:
     description: Zone in which this deployment will run
     type: string
-    default: us-central1-a
+    default: us-central1-b
     x-googleProperty:
       type: GCE_ZONE
 
   version:
     description: The version of TeamCity
     type: string
-    default: "2020.1"
+    default: "2022.10"
 
   installationSize:
     description: The size of installation
